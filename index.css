@@ -81,7 +81,7 @@ img {
     align-items: center;
 }
 
-#flower h1,p {
+#flower h1, #flower p {
     font-size: 50px;
     color: white;
     text-shadow: 2px 2px 2px #7D0E23;
@@ -89,4 +89,31 @@ img {
 
 #flower p {
     font-size: 30px;
+}
+
+#histoire h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#histoire p {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#histoire {
+    margin: 50px 80px;
+    color: #7D0E23;
+}
+
+/* Barre de séparation horizontale */
+#flower_divider {
+    width: 90%;
+	border-bottom: 2px solid black;
+	margin: 0 auto;
 }

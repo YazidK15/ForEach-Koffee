@@ -45,7 +45,7 @@ header {
     border-right: 1px solid white;
 }
 
-h1 {
+#barre h1 {
     font-size: 50px;
     font-family: Baby_Coffee;
 }
@@ -65,4 +65,28 @@ img {
     width: 30px;
     height: 30px;
     margin: 5px;
+}
+
+/* Main */
+
+#flower {
+    background-image: url(./assets/images/flowered_coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flower h1,p {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px #7D0E23;
+}
+
+#flower p {
+    font-size: 30px;
 }

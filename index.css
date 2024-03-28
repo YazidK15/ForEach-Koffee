@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Baby_Coffee ;
+    src: url(./assets/fonts/Baby_Coffee.woff);
+}
+
+@font-face {
+    font-family: Montserrat ;
+    src: url(./assets/fonts/Montserrat.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-color: #7D0E23;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}

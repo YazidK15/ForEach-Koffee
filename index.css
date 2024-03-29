@@ -79,7 +79,9 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #7D0E23;
+    border-top: 2px solid #7D0E23;
+    border-bottom: 2px solid #7D0E23;
+
 
 }
 
@@ -120,7 +122,9 @@ img {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border: 2px solid #7D0E23;
+    border-top: 2px solid #7D0E23;
+    border-bottom: 2px solid #7D0E23;
+
 
 }
 
@@ -167,14 +171,54 @@ img {
 
 /* Formulaire */
 
-form {
-    color: #7D0E23;
-    font-weight: bold;
-}
-
 #formulaire h1 {
     color: #7D0E23;
     font-size: 30px;
     text-align: center;
     margin: 30px;
+}
+
+form {
+    color: #7D0E23;
+    font-weight: bold;
+    margin: 10px 70px;
+}
+
+#identifiants {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input_identifiant {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input_identifiant input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgb(205, 202, 202);
+    color: grey;
+    margin-top: 5px;
+}
+
+.input_message {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_message textarea {
+    height: 200px;
+    border: 2px solid rgb(205, 202, 202);
+    color: grey;
+    margin-top: 5px;
+}
+
+#button input {
+    background-color: #7D0E23;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
 }

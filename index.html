@@ -97,18 +97,23 @@
         </section>
         <section id="formulaire">
             <h1>Contact</h1>
-            <form>
-                <div>
-                    <label for="prenom">Prénom:</label>
-                    <input type="text" name="prenom" id="prenom" placeholder="Jérome">
+            <form id="form">
+                <div id="identifiants">
+                    <div class="input_identifiant">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Jérome">
+                    </div>
+                    <div class="input_identifiant">
+                        <label for="email">Email :</label>
+                        <input type="text" name="email" id="email" placeholder="jerome@gmail.com">
+                    </div>
                 </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email" placeholder="jerome@gmail.com">
+                <div class="input_message">
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message">Votre message ici..</textarea>
                 </div>
-                <div>
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="150" rows="10">Votre message ici..</textarea>
+                <div id="button">
+                    <input type="submit" value="Envoyer">
                 </div>
             </form>
 

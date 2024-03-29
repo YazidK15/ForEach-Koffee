@@ -113,13 +113,6 @@ img {
     color: #7D0E23;
 }
 
-/* Barre de séparation horizontale */
-/* #flower_divider {
-    width: 90%;
-	border-bottom: 2px solid black;
-	margin: 30px auto 150px;
-} */
-
 #image {
     background-image: url(./assets/images/eat_together.jpg);
     width: 100%;
@@ -170,4 +163,18 @@ img {
 
 .text h1 {
     margin-bottom: 10px;
+}
+
+/* Formulaire */
+
+form {
+    color: #7D0E23;
+    font-weight: bold;
+}
+
+#formulaire h1 {
+    color: #7D0E23;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
 }

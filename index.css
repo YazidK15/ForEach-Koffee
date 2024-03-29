@@ -149,6 +149,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 80px;
+    color: #7D0E23;
 }
 
 .box {
@@ -156,14 +157,15 @@ img {
     width: 48%;
     padding: 10px 0px;
     display: flex;
-    align-items: flex-start;
     margin: 10px;
     background-color: white;
     border-radius: 10px;
 }
 
-.text {
-    margin-left: 20px;
+.box img {
+    max-width: 150px;
+    height: auto;
+    margin: 0px 10px;
 }
 
 .text h1 {
